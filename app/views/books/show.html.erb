@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <a href="<%= @book.url %>"><%= @book.title %></a>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @book.Author %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @book.description %>
+</p>
+
+<p>
+  <strong>Cover img:</strong>
+  <img src="<%= @book.cover_img %>">
+</p>
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
