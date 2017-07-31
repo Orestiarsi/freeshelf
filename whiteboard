@@ -1,0 +1,8 @@
+have to create a form called 'log_in' with attributes of name:string !null include first & last
+                                                          username:string !null ==this is waht they use to log in
+                                                        email:string !null
+                                                        password: !null min 8characters length
+                                                        confirm pass: !null min 8characters length
+
+rails g controller sessions /logIn_form  /log_in  logout
+rails g model 
